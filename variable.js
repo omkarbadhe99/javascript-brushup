@@ -5,7 +5,20 @@ function foo() {
     return a;
 //   console.log(a);
 }
-console.log(a);
+// console.log(a);
+const b = 30;
+if(true){
+    const b = 40;
+    console.log(b);
+}
+console.log(b);
+
+let c = 50;
+if(true){
+    let c = 60;
+    console.log(c);
+}   
+console.log(c);
 //test
 // console.log(foo());
 
@@ -23,4 +36,8 @@ const a = 30; // This will also throw an error because we cannot redeclare a con
  - var variable we can reassing the value and we can redclare thi variable
 var a = 10;
 var a=20
+
+
+
+
 */
