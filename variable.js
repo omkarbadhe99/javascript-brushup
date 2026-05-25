@@ -33,7 +33,7 @@ const a = 10;
 a= 20; // This will throw an error because we cannot reassign a const variable
 const a = 30; // This will also throw an error because we cannot redeclare a const variable
 
- - var variable we can reassing the value and we can redclare thi variable
+ - var variable we can reassing the value and we can redclare this variable
 var a = 10;
 var a=20
 
